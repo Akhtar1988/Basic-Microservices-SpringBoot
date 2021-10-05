@@ -16,7 +16,7 @@ public class BeerLoader implements CommandLineRunner {
     }
 
     @Override
-    public void run(String... args) throws Exception {
+    public void run(String... args) {
         loadBeerObject();
     }
 
@@ -40,6 +40,7 @@ public class BeerLoader implements CommandLineRunner {
                     .upc(337010000002L)
                     .price(new BigDecimal("11.95"))
                     .build());
+
 
         }
     }
