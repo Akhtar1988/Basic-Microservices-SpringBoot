@@ -17,6 +17,7 @@
 		<java.version>11</java.version>
 		<mapsturct.version>1.4.2.Final</mapsturct.version>
 	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
